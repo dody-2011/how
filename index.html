@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Udacity Travel</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+   
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+ <header  id="home"  >
+<!-- navbar -->
+ <nav id="nav">
+ <div class="nav-center">
+  <!-- nav header -->
+<div class="nav-center">
+          <div class="nav-header">
+     <img src="logo.jpg" class="logo" alt="logo" />
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+</div>
+     <!-- links -->
+    <div class="links-container">
+            
+ <!-- Navigation starts as empty UL that will be populated with JS -->
+
+<ul id="navbar_list" class="links"></ul>
+</div>
+   </div> 
+</nav>
+    
+  
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+
+   <section id="home" data-nav="home"  class="section"  class="your-active-class">
+   
+          <h1>Udacity Travel Tours</h1>
+          <p>
+            Committed to extend the highest competitive quality of Aviation Services and Safety 
+            Standards that goes beyond our customer satisfaction expectations.
+          </p>
+          <a href="#tours" class="scroll-link btn btn-white">explore tours</a>
+        </div>
+      </div>
+    </header>
+    <!-- about -->
+    <section id="about" data-nav="about"  class="section">
+      <div class="title">
+        <h2>about <span>us</span></h2>
+
+</div>
+<div class="card">
+
+<img src="plane.jpg" alt="plane"  width="700" height="300" >
+<h2>
+
+
+Udacity  Aviation Company is a corporate airline operator based in Egypt.
+ The company launched operations during the second quarter of 2022 <span id="dots">...</span><span id="more"> from 
+its base in Cairo International Airport Committed to extend the highest
+ competitive quality of Aviation Services and Safety Standards that goes beyond our customer satisfaction expectations.
+    </h2></span>
+<button onclick="myFunction()" id="myBtn">Read more</button>
+  </div>
+    </section>
+    <!-- services -->
+    <section id="services"  data-nav="services"   class="section">
+      <div class="title">
+
+        <h2>our <span>services</span></h2>
+      </div>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="plane.jpg"  "width="600" height="300">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="VIP GULFSTREAM2.jpg" "width="600" height="300">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="AIR AMBULANCE.jpg" "width="600" height="300">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="GROUND HANDLING AGENCY.jpg" "width="600" height="300">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="AIRPORTS CALIBRATION.jpg" "width="600" height="300">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="air6.jpg" "width="600" height="300">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="plane.jpg" style="width:100%" onclick="currentSlide(1)" alt="VIP BUSINESS JET">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="VIP GULFSTREAM2.jpg" style="width:100%" onclick="currentSlide(2)" alt="VIP GULFSTREAM G450">
+
+    </div>
+    <div class="column">
+      <img  class="demo cursor" src="AIR AMBULANCE.jpg" style="width:100%" onclick="currentSlide(3)" alt="AIR AMBULANCE">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="GROUND HANDLING AGENCY.jpg" style="width:100%" onclick="currentSlide(4)" alt="BUSINESS TRAVELERS">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="AIRPORTS CALIBRATION.jpg" style="width:100%" onclick="currentSlide(5)" alt="GROUND HANDLING AGENCY">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="air6.jpg" style="width:100%" onclick="currentSlide(6)" alt="AIRPORTS CALIBRATION">
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+    </section>
+    <!-- contact -->
+    <section id="tours" data-nav="tours" class="section">
+      <div class="title">
+<p><p><div></div>
+        <h2>featured <span>tours</span></h2>
+
+ <div class="desc">Get the best features with us by choosing our company to enjoy the best service for flights</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="air2.jpg">
+   <img src="air2.jpg" alt="air2" width="600" height="400">
+  </a>
+  <div class="desc"> We use the latest Aircraft equipped with the world’s latest technology</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="air3.jpg">
+    <img src="air3.jpg" alt="air3" width="600" height="400">
+  </a>
+  <div class="desc">Versatile option for business travelers all over the world</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="air4.jpg">
+    <img src="air4.jpg" alt="air4" width="600" height="400">
+  </a>
+  <div class="desc">the food is created in the moment and is ever-changing</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="air6.jpg">
+    <img src="air6.jpg" alt="air6.jpg" width="600" height="400">
+  </a>
+  <div class="desc">Enjoy a stand -up, walk -around, stretch-out and relax cabin</div>
+</div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="section">
+      <p>
+        copyright &copy; Udacity  travel tours company
+        <span id="date"></span>. all rights reserved
+      </p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
